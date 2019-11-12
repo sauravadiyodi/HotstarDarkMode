@@ -90,6 +90,10 @@ body{
 	background: black !important;
 }
 
+.btn-hamburger .submenu-container{
+	background: black !important;
+}
+
 .submenu-container .link-container:hover {
     background-color: #222222 !important;
 }
