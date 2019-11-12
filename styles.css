@@ -1,0 +1,62 @@
+.master-container .watch-area{
+  background: black;
+}
+
+.header.white-header{
+  background: #191919 !important;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.search-container input{
+  background: #191919 !important;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0) !important;
+  color: white !important;
+}
+
+.master-container .watch-area .detail-area .container h1{
+  color:white !important;
+}
+
+.footer{
+  background: black !important;
+}
+
+.trays-container:after{
+      background-image: linear-gradient(to left,#222222,#000000 80px) !important;
+}
+
+.trays-container:before{
+      background-image: linear-gradient(to right,#222222,#000000 80px) !important;
+}
+
+.master-container .tray-area{
+  background: black;
+}
+
+.trays-container{
+  background: #222222;
+}
+
+.tray-area .tray-wrapper .tray-carousel .tray-title .tray-link{
+  color: white !important;
+}
+
+.brand-logo{
+  content :url('https://svgshare.com/i/G6n.svg');
+}
+
+.footer .container .footer-right p{
+  color: white !important;
+}
+
+body{
+  color: black;
+}
+
+.slick-track{
+  background: black !important;
+}
