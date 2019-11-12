@@ -20,6 +20,9 @@
 .master-container .watch-area .detail-area .container h1{
   color:white !important;
 }
+.tray-wrapper .tray-carousel .container h2{
+	color: white !important;
+}
 
 .footer{
   background: black !important;
@@ -54,9 +57,39 @@
 }
 
 body{
-  color: black;
+  color: black !important;
+  background: black !important;
 }
 
 .slick-track{
-  background: #191919 !important;
+  background: #222222 !important;
+}
+
+.dropdown-container:hover .sublink-container{
+	background: black;
+}
+
+.dropdown-container .sublink-container .dropdown-link{
+	color: white !important;
+}
+
+.dropdown-container .sublink-container .dropdown-link:hover {
+    color: #55aa29 !important;
+    background-color: #222222 !important;
+}
+
+.tray-wrapper{
+	background: black !important;
+}
+
+.tray-wrapper .tray-carousel .container .resClass .normal, .tray-wrapper .tray-carousel .container .resClass article{
+	background: black !important;
+}	
+
+.btn-hamburger.active .submenu-container{
+	background: black !important;
+}
+
+.submenu-container .link-container:hover {
+    background-color: #222222 !important;
 }
