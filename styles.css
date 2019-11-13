@@ -29,15 +29,15 @@
 }
 
 .trays-container:after{
-      background-image: linear-gradient(to left,#222222,#000000 80px) !important;
+      background-image: linear-gradient(to left,rgba(255, 0, 0, 0),#222222 30px) !important;
 }
 
 .trays-container:before{
-      background-image: linear-gradient(to right,#222222,#000000 80px) !important;
+      background-image: linear-gradient(to right,rgba(255, 0, 0, 0),#222222 30px) !important;
 }
 
 .master-container .tray-area{
-  background: black;
+  background: #222222;
 }
 
 .trays-container{
@@ -57,7 +57,6 @@
 }
 
 body{
-  color: black !important;
   background: black !important;
 }
 
@@ -79,7 +78,7 @@ body{
 }
 
 .tray-wrapper{
-	background: black !important;
+	background: #222222 !important;
 }
 
 .tray-wrapper .tray-carousel .container .resClass .normal, .tray-wrapper .tray-carousel .container .resClass article{
@@ -96,4 +95,53 @@ body{
 
 .submenu-container .link-container:hover {
     background-color: #222222 !important;
+}
+
+.search-container .result-holder.element-show{
+	background: #222222;
+}
+
+.search-container .result-holder article{	
+    background: #191919 !important;
+    border: 1px solid #191919 !important;
+}
+
+.search-container .result-holder article .search-wrap .meta-wrapper .title {
+    color: white !important;
+}
+
+.search-container .result-holder .more-result {
+	background-color: #222222 !important;
+}
+
+.detail-page {
+    background: #222222 !important;
+}
+
+.master-container-inner {
+	background: #222222 !important;
+}
+
+.ripple .movie-card .vertical {
+	background: #222222 !important;
+}
+
+.ripple .movie-card .vertical .expand{
+	background: #222222 !important;
+}
+
+article{
+	background: #222222 !important;
+}
+
+.tray-area .right-arrow:before{
+	color: white !important;
+}
+
+.tray-area .left-arrow:before{
+	color: white !important;
+}
+
+.masthead .masthead-item-container{
+	background-color: #222222 !important;
 }
