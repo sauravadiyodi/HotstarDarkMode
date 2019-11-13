@@ -145,3 +145,7 @@ article{
 .masthead .masthead-item-container{
 	background-color: #222222 !important;
 }
+
+.full-screen .hs-logo.active {
+    visibility: hidden !important;
+}
