@@ -1,5 +1,5 @@
 .master-container .watch-area{
-  background: black;
+  background: #222222;
 }
 
 .header.white-header{
@@ -144,4 +144,8 @@ article{
 
 .masthead .masthead-item-container{
 	background-color: #222222 !important;
+}
+
+.full-screen .hs-logo.active {
+    visibility: hidden !important;
 }
