@@ -1,7 +1,18 @@
-.master-container .watch-area{
-  background: #222222;
+body{
+  background: #222222 !important;
 }
 
+/* Home Page Sliding Cards*/
+
+.masthead .masthead-item-container{
+	background-color: #222222 !important;
+}
+
+/* Nav and header */
+
+.brand-logo{
+  filter: invert(1) grayscale(1);
+}
 .header.white-header{
   background: #191919 !important;
 }
@@ -10,6 +21,45 @@
   color: white !important;
 }
 
+.dropdown-container:hover .sublink-container{
+	background: black;
+}
+
+.dropdown-container .sublink-container .dropdown-link{
+	color: white !important;
+}
+
+.dropdown-container .sublink-container .dropdown-link:hover {
+    color: #337ab7 !important;
+    background-color: #222222 !important;
+}	
+
+.btn-hamburger.active .submenu-container{
+	background: black !important;
+}
+
+.btn-hamburger .submenu-container{
+	background: black !important;
+}
+
+.submenu-container .link-container:hover {
+    background-color: #222222 !important;
+}
+
+/* Sub menu under nav in some pages */
+
+.sub-header{
+  background: #222222 !important;
+  color: white !important;
+}
+
+.tab-link{
+  color: gray !important;
+}
+
+
+/* Search */
+
 .search-container input{
   background: #191919 !important;
   border: none;
@@ -17,15 +67,34 @@
   color: white !important;
 }
 
+.search-container .result-holder.element-show{
+	background: #222222;
+}
+
+.search-container .result-holder article{	
+    background: #191919 !important;
+    border: 1px solid #191919 !important;
+}
+
+.search-container .result-holder article .search-wrap .meta-wrapper .title {
+    color: white !important;
+}
+
+.search-container .result-holder .more-result {
+	background-color: #222222 !important;
+}
+
+/* Watch Area*/
+
+.master-container .watch-area{
+  background: #222222;
+}
+
 .master-container .watch-area .detail-area .container h1{
   color:white !important;
 }
 .tray-wrapper .tray-carousel .container h2{
 	color: white !important;
-}
-
-.footer{
-  background: black !important;
 }
 
 .trays-container:after{
@@ -48,33 +117,27 @@
   color: white !important;
 }
 
-.brand-logo{
-  content :url('https://svgshare.com/i/G6n.svg');
+/* Watermark */
+
+.video-js.vjs-fullscreen .vjs-watermark-content {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+/* Footer */
+
+.footer{
+  background: black !important;
 }
 
 .footer .container .footer-right p{
   color: white !important;
 }
 
-body{
-  background: black !important;
-}
+/* Cards, Description and Sliders in watch page*/
 
 .slick-track{
   background: #222222 !important;
-}
-
-.dropdown-container:hover .sublink-container{
-	background: black;
-}
-
-.dropdown-container .sublink-container .dropdown-link{
-	color: white !important;
-}
-
-.dropdown-container .sublink-container .dropdown-link:hover {
-    color: #55aa29 !important;
-    background-color: #222222 !important;
 }
 
 .tray-wrapper{
@@ -82,36 +145,7 @@ body{
 }
 
 .tray-wrapper .tray-carousel .container .resClass .normal, .tray-wrapper .tray-carousel .container .resClass article{
-	background: black !important;
-}	
-
-.btn-hamburger.active .submenu-container{
-	background: black !important;
-}
-
-.btn-hamburger .submenu-container{
-	background: black !important;
-}
-
-.submenu-container .link-container:hover {
-    background-color: #222222 !important;
-}
-
-.search-container .result-holder.element-show{
-	background: #222222;
-}
-
-.search-container .result-holder article{	
-    background: #191919 !important;
-    border: 1px solid #191919 !important;
-}
-
-.search-container .result-holder article .search-wrap .meta-wrapper .title {
-    color: white !important;
-}
-
-.search-container .result-holder .more-result {
-	background-color: #222222 !important;
+	background: #222222 !important;
 }
 
 .detail-page {
@@ -142,10 +176,3 @@ article{
 	color: white !important;
 }
 
-.masthead .masthead-item-container{
-	background-color: #222222 !important;
-}
-
-.full-screen .hs-logo.active {
-    visibility: hidden !important;
-}

@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
  
-  "name": "Hotstar Dark Mode",
-  "version": "0.1.0",
-  "description": "Custom CSS dark mode for Hotstar",
+  "name": "Disney+ Hotstar Dark Mode",
+  "version": "1.0.1",
+  "description": "Custom CSS dark mode for Disney+ Hotstar",
  
   "content_scripts": [{
     "css": ["styles.css"],
