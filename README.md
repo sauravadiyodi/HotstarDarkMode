@@ -1,3 +1,7 @@
+#Outdated
+
+Hotstar has their own dark mode
+
 # HotstarDarkMode
 Chrome Extension for a Dark Hotstar Theme
 
