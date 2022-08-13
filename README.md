@@ -1,6 +1,6 @@
-#Outdated
+# Obsolete Now
 
-Hotstar has their own dark mode
+Hotstar has their own dark mode, they stole this XP
 
 # HotstarDarkMode
 Chrome Extension for a Dark Hotstar Theme
